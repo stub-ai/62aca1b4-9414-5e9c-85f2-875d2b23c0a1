@@ -8,6 +8,6 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) {
-  // Here you need to integrate with your payment gateway
+  // Here you need to integrate with your Ripple (XRP) payment gateway
   res.status(200).json({ message: 'Payment successful' })
 }
